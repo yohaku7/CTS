@@ -1,0 +1,170 @@
+/* メニューバー */
+
+nav{
+    border-bottom: 5px solid #ccc;
+    position: relative;
+    }
+
+nav ul{
+    position: absolute;
+    left:10%;
+    display: table;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    text-align: center;
+    }
+
+nav ul li{
+    display: table-cell;
+    min-width: 50px;
+    }
+    
+nav ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #aaa;
+    }
+
+nav ul li a:hover{
+    color: #ffffff;
+    background-color: #dfb8ff;
+    }
+
+nav ul li:hover{
+    border-top: 5px solid #642de2;
+    }
+
+/*アカウント設定*/
+
+body {
+    padding-top:25px;
+    background-color:#FAFAFA;
+    margin-left:10px;
+    margin-right:10px;
+  }
+
+.custom_space{
+    width: 84%;
+    height: 76%;
+    border-radius: 5%;
+    background-color: #e5ddee;
+    position: absolute;
+    right: 8%;
+    bottom: 12%;
+}
+
+.icon{
+    width: 15.5%;
+    height: 13%;
+    position:absolute;
+    top: 5%;
+    left: 3%;
+    border-radius: 50%;
+    /*background-image: url("");
+    background-position: center;*/
+    background-color: #FAFAFA;
+}
+
+.icon:focus{
+    background-image:url(C:\CTS\icon_focus.png);
+    background-repeat:  no-repeat;
+}
+
+input {
+    margin-bottom:10px;
+  }
+  
+  input:first-of-type {
+    margin-top:35px;
+  }
+   
+  input, textarea {
+    font-size: 1.5em;
+    padding: 15px 10px 10px;
+    font-family: 'Source Sans Pro',arial,sans-serif;
+    border: 1px solid #cecece;
+    background: #d7d7d7;
+    color:#FAFAFA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 65%;
+    max-width: 600px;
+  }
+  
+  input, textarea:focus {
+    color: #000000;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #FAFAFA;
+  }
+  
+  :-moz-placeholder {
+    color: #FAFAFA;  
+  }
+  ::-moz-placeholder {
+    color: #FAFAFA; 
+  }
+  
+  :-ms-input-placeholder {  
+    color: #FAFAFA;  
+  }
+
+.acount_name{
+    width: 62%;
+  }
+
+.acount_name_head{
+    text-align:center;
+    padding:18px 0 18px 0;
+    font-size: 1.4em;
+}
+
+.name{
+    position: absolute;
+    left: 23%;
+    top: 9%;
+}
+
+.acount_message_head{
+  text-align:center;
+  padding:18px 0 18px 0;
+  font-size: 1.4em;
+  position:absolute;
+  top: -60%;
+  left: 1%
+}
+
+.acount_message{
+  width: 100%;
+  position:absolute;
+  top:30%;
+  left: 23%;
+}
+
+.acount_place_head{
+  text-align:center;
+  padding:18px 0 18px 0;
+  font-size: 1.4em;
+  position:absolute;
+  top: -60%;
+  left: 1%
+}
+
+.acount_place{
+  width: 100%;
+  position:absolute;
+  top:51%;
+  left: 23%;
+}
